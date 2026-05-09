@@ -97,9 +97,10 @@ fact-check-agent/
 │   └── report_utils.py
 │
 └── .streamlit/
-    └── config.toml
+    └── config.toml 
+    ```
 
-Installation & Setup
+ # Installation & Setup
 1.Clone Repository
 git clone https://github.com/Disha-pandey/fact-check-agent.git
 cd fact-check-agent
@@ -125,7 +126,7 @@ SERPER_API_KEY=your_serper_api_key
 
 5. Run the Application
 streamlit run app.py
-Streamlit Cloud Deployment
+ # Streamlit Cloud Deployment
 Steps
 Push the project to GitHub
 Open Streamlit Community Cloud
@@ -138,30 +139,35 @@ OPENAI_API_KEY = "your_openai_api_key"
 TAVILY_API_KEY = "your_tavily_api_key"
 SERPER_API_KEY = "your_serper_api_key"
 Deploy the application
-Render Deployment
+## Live Demo
+
+Deployed App Link:
+https://fact-check-agent-6wniqfboxxafyrvcq5nw6n.streamlit.app/
+
+# Render Deployment
 
 Use the following start command:
 
 streamlit run app.py --server.port $PORT --server.address 0.0.0.0
-Example Workflow
+# Example Workflow
 Upload a PDF document
 Extract factual claims
 Search live web evidence
 Verify claim accuracy using AI
 Generate downloadable verification reports
-Future Improvements
+# Future Improvements
 Multi-language support
 OCR support for scanned PDFs
 Export PDF reports
 Advanced source ranking
 Citation confidence scoring
 Batch document verification
-Author
+# Author
 Disha Pandey
 
 GitHub:
 https://github.com/Disha-pandey
 
-License
+# License
 
 This project is developed for educational and project submission purposes.
